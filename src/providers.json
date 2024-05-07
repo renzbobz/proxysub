@@ -1,0 +1,55 @@
+[
+  {
+    "name": "mango_proxy",
+    "session_id_opts": {
+      "length": 9,
+      "charset": "alphanumeric"
+    },
+    "opts": {
+      "session_key": "session",
+      "to_append_key": "username",
+      "and_to_append_key_separator": "-",
+      "key_value_separator": "-"
+    }
+  },
+  {
+    "name": "packet_stream",
+    "session_id_opts": {
+      "length": 8,
+      "charset": "alphanumeric"
+    },
+    "opts": {
+      "session_key": "session",
+      "to_append_key": "password",
+      "and_to_append_key_separator": "_",
+      "key_value_separator": "-"
+    }
+  },
+  {
+    "name": "bright_data",
+    "session_id_opts": {
+      "length": 6,
+      "charset": "numeric"
+    },
+    "opts": {
+      "session_key": "session",
+      "to_append_key": "username",
+      "to_append_key_prefix": "brd-customer-",
+      "and_to_append_key_separator": "-",
+      "key_value_separator": "-"
+    }
+  },
+  {
+    "name": "lightning_proxies",
+    "session_id_opts": {
+      "length": 12,
+      "charset": "alphanumeric"
+    },
+    "opts": {
+      "session_key": "session",
+      "to_append_key": "username",
+      "and_to_append_key_separator": "-",
+      "key_value_separator": "-"
+    }
+  }
+]
