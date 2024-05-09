@@ -70,3 +70,4 @@ const proxyUrl = proxy.getUrl();
 const proxyAgent = new HttpsProxyAgent(proxyUrl);
 // then fetch target url with proxyAgent present
 ```
+Check [tests](https://github.com/renzbobz/proxysub/tree/main/test)
