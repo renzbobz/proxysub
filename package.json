@@ -1,6 +1,6 @@
 {
   "name": "proxysub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proxy service url builder",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/renzbobz/proxysub.git"
   },
-  "keywords": [],
+  "keywords": ["proxy", "url"],
   "author": "renzbobz",
   "license": "ISC",
   "bugs": {
